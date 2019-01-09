@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGNUP"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_margin="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:hint="Enter First Name"
+        android:padding="10dp"
+        android:background="@drawable/shape"
+        android:inputType="textPersonName" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Enter Last Name"
+        android:padding="10dp"
+        android:background="@drawable/shape"
+        android:layout_margin="10dp"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Email ID"
+        android:padding="10dp"
+        android:background="@drawable/shape"
+        android:layout_margin="10dp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Passward"
+        android:padding="10dp"
+        android:background="@drawable/shape"
+        android:layout_margin="10dp"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Confirm Password"
+        android:padding="10dp"
+        android:background="@drawable/shape"
+        android:layout_margin="10dp"
+        android:inputType="textPersonName"/>
+    <Button
+        android:id="@+id/sign"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:text="sign up"
+        android:background="@drawable/btn_background"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:textColor="#c15212"
+        android:layout_margin="15dp" />
+
+</LinearLayout>
+

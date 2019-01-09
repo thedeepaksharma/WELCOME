@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jaipur"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delhi"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mumbai"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Banglore"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ahmedabad"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/selectbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#052fe7"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="50dp"/>
+
+    </RadioGroup>
+
+
+</LinearLayout>

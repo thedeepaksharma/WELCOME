@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Statement 1"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/checkbox1"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Statement 2"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/checkbox2"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Statement 3"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/checkbox3"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Statement 4"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/checkbox4"/>
+
+
+    <Button
+        android:id="@+id/okbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:textSize="30sp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#06cf13"
+        android:textStyle="bold"/>
+
+</LinearLayout>
